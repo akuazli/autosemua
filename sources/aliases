@@ -1,0 +1,25 @@
+# Default aliases
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+
+alias ls='ls --color=auto'
+alias la='ls -a --color=auto'
+alias lh='ls -h --color=auto'
+alias li='ls -i --color=auto'
+alias ll='ls -la --color=auto'
+alias ln='ls -n --color=auto'
+
+alias now='date +"%d-%m-%Y"'
+
+alias update='apt-get update'
+alias upgrade='apt-get --assume-yes upgrade'
+alias install='apt-get --assume-yes install'
+alias remove='apt-get --assume-yes remove'
+alias purge='apt-get --assume-yes purge'
+alias autoclean='apt-get --assume-yes autoclean'
+alias autoremove='apt-get --assume-yes autoremove'
